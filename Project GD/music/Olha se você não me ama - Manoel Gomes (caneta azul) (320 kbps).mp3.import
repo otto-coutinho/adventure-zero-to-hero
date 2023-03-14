@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Olha se você não me ama - Manoel Gomes (caneta azul) (320 kbps).mp3-de65ff7b3eb9bd7063d4967ff8fd9fde.mp3str"
+
+[deps]
+
+source_file="res://music/Olha se você não me ama - Manoel Gomes (caneta azul) (320 kbps).mp3"
+dest_files=[ "res://.import/Olha se você não me ama - Manoel Gomes (caneta azul) (320 kbps).mp3-de65ff7b3eb9bd7063d4967ff8fd9fde.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

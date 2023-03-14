@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://imagens/business-man-pointing-to-something-touching-screen-portrait-50097606.jpg" type="Texture" id=1]
+[ext_resource path="res://music/musicafodatriste.mp3" type="AudioStream" id=2]
+[ext_resource path="res://scenes/fase4.gd" type="Script" id=3]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource( 3 )
+
+[node name="Business-man-pointing-to-something-touching-screen-portrait-50097606" type="Sprite" parent="."]
+position = Vector2( 524, 338 )
+scale = Vector2( 1.31473, 1.31473 )
+texture = ExtResource( 1 )
+
+[node name="Label" type="Label" parent="."]
+margin_left = 532.0
+margin_top = 484.0
+margin_right = 601.0
+margin_bottom = 498.0
+rect_scale = Vector2( 6.81594, 6.81594 )
+text = "YOU SUCK!"
+
+[node name="musicatriste" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 2 )

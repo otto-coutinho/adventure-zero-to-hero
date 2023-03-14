@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/musicafodatriste.mp3-cecd29d43bc1c2ec384037e2880bce88.mp3str"
+
+[deps]
+
+source_file="res://music/musicafodatriste.mp3"
+dest_files=[ "res://.import/musicafodatriste.mp3-cecd29d43bc1c2ec384037e2880bce88.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

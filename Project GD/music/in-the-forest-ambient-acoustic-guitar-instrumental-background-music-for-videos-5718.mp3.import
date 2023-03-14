@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/in-the-forest-ambient-acoustic-guitar-instrumental-background-music-for-videos-5718.mp3-79fbab6b55bd333812ac965d7ecf0a84.mp3str"
+
+[deps]
+
+source_file="res://music/in-the-forest-ambient-acoustic-guitar-instrumental-background-music-for-videos-5718.mp3"
+dest_files=[ "res://.import/in-the-forest-ambient-acoustic-guitar-instrumental-background-music-for-videos-5718.mp3-79fbab6b55bd333812ac965d7ecf0a84.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,46 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Scripts/KinematicBody2D.gd" type="Script" id=1]
+[ext_resource path="res://imagens/spritesheet.png" type="Texture" id=2]
+[ext_resource path="res://imagens/997425145049873.6328a9cf39b2f.jpg" type="Texture" id=3]
+
+[sub_resource type="CapsuleShape2D" id=1]
+height = 18.303
+
+[sub_resource type="CircleShape2D" id=2]
+
+[node name="Node2D" type="Node2D"]
+scale = Vector2( 1.93697, 1.93697 )
+
+[node name="9974251450498736328A9Cf39B2f" type="Sprite" parent="."]
+position = Vector2( 255.553, 85.1845 )
+scale = Vector2( 0.22922, 0.22922 )
+texture = ExtResource( 3 )
+
+[node name="KinematicBody2D" type="KinematicBody2D" parent="."]
+position = Vector2( 28.9111, 274.655 )
+scale = Vector2( 1.59043, 1.59043 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="KinematicBody2D"]
+shape = SubResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="KinematicBody2D"]
+scale = Vector2( 0.031019, 0.031019 )
+texture = ExtResource( 2 )
+hframes = 3
+
+[node name="Area2D" type="Area2D" parent="."]
+position = Vector2( 477.034, 136.812 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+scale = Vector2( 0.606935, 0.606935 )
+shape = SubResource( 2 )
+
+[connection signal="body_entered" from="Area2D" to="KinematicBody2D" method="_on_Area2D_body_entered"]
